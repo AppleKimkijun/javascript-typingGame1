@@ -156,3 +156,19 @@ body {
 .result-details li b {
     font-weight: 500;
 }
+
+@media(max-width: 480px){
+    .wrapper {
+        width: 100vw;
+    }
+    .result-details li p {
+        font-size: 13px;
+    }
+    .result-details li span{
+        font-size: 15px;
+    }
+    .result-details li:not(:first-child){
+        padding-left: 5px;
+        border-left: none;
+    }
+}
