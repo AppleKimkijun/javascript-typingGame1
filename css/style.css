@@ -183,4 +183,8 @@ body {
         background: #17a2b8;
         transition: transform 0.3s ease;
     }
+    .content-box .typing-text{
+        max-height: 100px;
+        overflow-y: auto;
+    }
 }
